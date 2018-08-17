@@ -153,6 +153,7 @@ header .desktop .button{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  overflow: hidden;
 }
 
 #sign-up-cta {
@@ -236,16 +237,17 @@ header .desktop .button{
 }
 
 @media only screen and (max-width: 690px) {
+
   #sign-up-section {
     height: 20rem;
   }
 
   #sign-up-cta h1 {
-    font-size: 2.25rem;
+    font-size: 1.5rem;
   }
 
   #sign-up-cta h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 
