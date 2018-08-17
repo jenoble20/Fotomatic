@@ -28,12 +28,12 @@ html {
   display: block;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 890px) {
   .main-content {
     top: 4.01rem;
   }
 
-  @media only screen and (max-width: 580px){
+  @media only screen and (max-width: 690px){
     .main-content{
       top: 2.60rem;
     }
@@ -87,7 +87,7 @@ header .desktop .button{
   display: none;
 }
 
-@media only screen and (max-width: 760px){
+@media only screen and (max-width: 890px){
 
   header .desktop .button{
     display: block;
@@ -104,7 +104,12 @@ header .desktop .button{
 
 }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 690px) {
+
+  header .content{
+
+  }
+
   header .desktop {
     display: none;
   }
@@ -144,7 +149,7 @@ header .desktop .button{
   justify-content: flex-start;
   align-items: flex-start;
   height: 43.5rem;
-  background-image: url("../Images/banner-landingpage.jpg");
+  background-image: url("../images/banner-landingpage.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -194,7 +199,7 @@ header .desktop .button{
   padding: 1.25rem 7.25rem;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 890px) {
 
 
   #sign-up-section {
@@ -230,7 +235,7 @@ header .desktop .button{
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 690px) {
   #sign-up-section {
     height: 20rem;
   }
@@ -290,7 +295,7 @@ header .desktop .button{
 }
 
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 890px) {
 
   .feature h2{
     font-size: 1.75rem;
@@ -303,7 +308,7 @@ header .desktop .button{
   }
 }
 
-@media only screen and (max-width: 580px){
+@media only screen and (max-width: 690px){
 
   #features-section{
     flex-direction: column;
@@ -364,14 +369,14 @@ header .desktop .button{
   display: flex;
 }
 
-@media only screen and (max-width: 760px){
+@media only screen and (max-width: 890px){
 
   #filters-section{
     padding-bottom: 0;
   }
 }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 690px) {
   #filters-section {
     padding: 1.5rem 0 0 0;
   }
@@ -426,7 +431,7 @@ header .desktop .button{
   height: 1.875rem;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 890px) {
   #quotes-section .content {
     padding: 1.875rem .625rem;
   }
@@ -461,7 +466,7 @@ footer .copyright {
   flex-grow: 1;
 }
 
-@media only screen and (min-width: 760px) {
+@media only screen and (min-width: 890px) {
   footer .content {
     font-size: .625rem;
   }
